@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-demo: https://data-finance-landing.vercel.app/#about
+demo: https://data-finance-landing.vercel.app
 
 ## Available Scripts
 
