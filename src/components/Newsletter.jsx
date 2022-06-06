@@ -2,11 +2,11 @@ import React from 'react'
 
 const Newsletter = () => {
   return (
-    <div className='w-full bg-[#040a0e] py-28'>
+    <div id='contact' className='w-full bg-[#040a0e] py-28'>
         <div className='max-w-[1240px] mx-auto block lg:flex items-center px-4'>
             <div className='w-full lg:w-7/12 items-center'>
                 <h1 className='text-white text-3xl font-bold'>Want tips &amp; tricks to optimize your flow?</h1>
-                <p className='text-slate-500 text-base py-2'>Sign up to our newsletter and stay up to date.</p>
+                <p className='text-slate-300 text-base py-2'>Sign up to our newsletter and stay up to date.</p>
             </div>
 
             <div className='w-full mt-20 lg:mt-0 lg:w-5/12'>

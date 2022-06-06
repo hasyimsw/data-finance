@@ -17,11 +17,21 @@ const Navbar = () => {
         </div>
         <div className="hidden md:flex">
           <ul className="flex items-center space-x-8 font-semibold uppercase">
-            <li className="hover:text-cyan-500">Home</li>
-            <li className="hover:text-cyan-500">Company</li>
-            <li className="hover:text-cyan-500">Resources</li>
-            <li className="hover:text-cyan-500">About</li>
-            <li className="hover:text-cyan-500">Contact</li>
+            <li className="hover:text-cyan-500">
+              <a href="#home">Home</a>
+            </li>
+            <li className="hover:text-cyan-500">
+              <a href="#company">Company</a>
+            </li>
+            <li className="hover:text-cyan-500">
+              <a href="#resource">Resources</a>
+            </li>
+            <li className="hover:text-cyan-500">
+              <a href="#about">About</a>
+            </li>
+            <li className="hover:text-cyan-500">
+              <a href="#contact">Contact</a>
+            </li>
           </ul>
         </div>
 
@@ -43,11 +53,21 @@ const Navbar = () => {
           }
         >
           <ul className="font-semibold p-4 space-y-4 uppercase">
-            <li className="hover:text-cyan-500">Home</li>
-            <li className="hover:text-cyan-500">Company</li>
-            <li className="hover:text-cyan-500">Resources</li>
-            <li className="hover:text-cyan-500">About</li>
-            <li className="hover:text-cyan-500">Contact</li>
+            <li className="hover:text-cyan-500">
+              <a href="#home">Home</a>
+            </li>
+            <li className="hover:text-cyan-500">
+              <a href="#company">Company</a>
+            </li>
+            <li className="hover:text-cyan-500">
+              <a href="#resource">Resources</a>
+            </li>
+            <li className="hover:text-cyan-500">
+              <a href="#about">About</a>
+            </li>
+            <li className="hover:text-cyan-500">
+              <a href="#contact">Contact</a>
+            </li>
           </ul>
         </div>
       </div>

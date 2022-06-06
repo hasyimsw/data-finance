@@ -3,7 +3,7 @@ import Laptop from '../assets/laptop.jpg'
 
 const Analytics = () => {
   return (
-    <div className='bg-white w-full text-slate-900 py-32'>
+    <div id='company' className='bg-white w-full text-slate-900 py-32'>
         <div className='max-w-[1240px] mx-auto px-4 grid md:grid-cols-2 md:gap-0 items-center'>
             <img className='my-4' src={Laptop} alt="/" />
 
